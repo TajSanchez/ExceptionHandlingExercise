@@ -41,7 +41,7 @@ namespace ExceptionHandlingExercise
                         numbers.Add(newInt);
                     
                 }
-                catch (Exception)
+                catch (Exception e)
 
                 {
                     Console.WriteLine($"Unable to Parse '{character}'");
